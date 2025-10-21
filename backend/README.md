@@ -171,6 +171,11 @@ These insights can be visualized using Prometheus and Grafana if integrated late
   - PostgreSQL can be connected through pgAdmin, OR Docker. I can explain further in the interview!!
   - All variables/settings/url etc should be inside env file - this way Docker can reach them in runtime
 
+8. Known Bugs
+ - Redis is configured and running but there is an issue of connectitivity
+ - Docker is configured and running but there is an issue of connectitivity
+ - PostGreSql is configured and running but there is an issue of connectitivity
+
 8. Summary
 
 The Notes Web App is a self-contained, scalable web system that demonstrates modern backend and frontend integration with containerized infrastructure.
