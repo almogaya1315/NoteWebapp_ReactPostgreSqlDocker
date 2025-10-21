@@ -166,7 +166,12 @@ System health and uptime
 
 These insights can be visualized using Prometheus and Grafana if integrated later.
 
-7. Summary
+7. Improvments
+  - Creating a service desegnated to DB calls only, via API.
+  - PostgreSQL can be connected through pgAdmin, OR Docker. I can explain further in the interview!!
+  - All variables/settings/url etc should be inside env file - this way Docker can reach them in runtime
+
+8. Summary
 
 The Notes Web App is a self-contained, scalable web system that demonstrates modern backend and frontend integration with containerized infrastructure.
 

@@ -21,8 +21,8 @@ export class NotesService {
     // ✅ Safe Redis initialization with fallback to localhost
     try {
       this.redis = new Redis({
-        host: process.env.REDIS_HOST || 'localhost', // fallback for local WSL setup
-        port: Number(process.env.REDIS_PORT) || 6379,
+        host: process.env.REDIS_HOST || 'redis',
+        port: parseInt(process.env.REDIS_PORT || '6379', 10),
         retryStrategy: (times) => Math.min(times * 50, 2000), // reconnect attempts
       });
 
